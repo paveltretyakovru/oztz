@@ -1,0 +1,21 @@
+{
+    "name": "tverd/os-test",
+    "type": "project",
+    "description": "TZ to OZ",
+    "require": {
+        "videlalvaro/php-amqplib": "^2.7",
+        "monolog/monolog": "^1.23",
+        "byjg/migration": "2.0.*",
+        "vlucas/phpdotenv": "^2.5",
+        "byjg/anydataset": "^3.0"
+    },
+    "authors": [
+        {
+            "name": "Pavel Tretyakov",
+            "email": "1@tretyakovpavel.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "": "src/" }
+    }
+}
