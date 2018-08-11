@@ -4,6 +4,11 @@ use PhpAmqpLib\Message\AMQPMessage;
 
 interface OzSenderInterface {
   /**
+   * @var String corr_id
+   * @var AMQPMessage->body response
+   */
+
+  /**
    * Function to prepare AMQP message
    * @param String $message
    */

@@ -6,10 +6,6 @@ use PhpAmqpLib\Message\AMQPMessage;
 use Oz\interfaces\OzSenderInterface;
 
 class OzSender implements OzSenderInterface {
-  /**
-   * @var corr_id
-   * @var response
-   */
   private $corr_id;
   private $response;
 
